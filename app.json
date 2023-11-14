@@ -1,0 +1,7 @@
+{
+  "name": "RNAdmobBootsplash",
+  "displayName": "RNAdmobBootsplash",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-6562787058348221~1653889725"
+  }
+}
