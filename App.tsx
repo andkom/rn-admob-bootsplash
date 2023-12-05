@@ -3,7 +3,6 @@ import {Text} from 'react-native';
 import BootSplash from 'react-native-bootsplash';
 import mobileAds, {
   MaxAdContentRating,
-  TestIds,
   useAppOpenAd,
 } from 'react-native-google-mobile-ads';
 
@@ -21,7 +20,7 @@ mobileAds()
 function App() {
   const [splashHidden, setSplashHidden] = useState(false);
   const {load, isLoaded, error, show, isClicked, isClosed} = useAppOpenAd(
-    TestIds.APP_OPEN,
+    'ca-app-pub-3940256099942544/9257395921',
   );
 
   const hideSplash = useCallback(async () => {
